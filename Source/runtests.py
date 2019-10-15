@@ -1,7 +1,7 @@
 import unittest
 import xmlrunner
 
-start_dir = 'c:\skillvelocity\courses\devops\PyMicroservices\Source'
+start_dir = '/home/kakkarot/Documents/Cloud_Class/Repo/PyMicroservices/Source'
 
 def runner(output='python_tests_xml'):
     return xmlrunner.XMLTestRunner(
